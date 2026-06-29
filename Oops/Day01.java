@@ -6,11 +6,11 @@ class Student {
 
     // Behavior
     void study() {
-        System.out.println("Student is Studying");
+        System.out.println("Student is Studying.");
     }
 
     void attendClass() {
-        System.out.println("Student is attending class");
+        System.out.println("Student is attending class.");
     }
 }
 
@@ -29,5 +29,11 @@ public class Day01 {
 
         s1.study();
         s1.attendClass();
+        Student s3 = new Student();
+        s3.name = "Mamta";
+        s3.age = 22;
+        System.out.println("Name: "+ s3.name);
+        System.out.println("Age :"+ s3.age);
+        s3.attendClass();
     }
 }
