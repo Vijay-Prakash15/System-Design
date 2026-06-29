@@ -44,3 +44,38 @@ Object – An instance of a class with specific data.
 Attributes – Variables holding object state.
 
 Methods – Functions defining object behavior.
+
+
+        constructor:- 
+A constructor is a special method that has the same name as the class and is automatically invoked when an object is created. It does not have a return type (not even void).
+
+class Student {
+    String name;
+    int age;
+
+    Student(String name, int age) {
+        name = name;
+        age = age;
+    }
+
+    void display() {
+        System.out.println(name + " " + age);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s1 = new Student("Vijay", 20);
+        
+        s1.display();
+    }
+}
+
+Constructor Rules:-
+
+Constructor name must be the same as the class name.
+It does not have any return type, not even void.
+It is called automatically when an object is created using new.
+Constructors can be overloaded.
+Constructors cannot be inherited.
+If you do not write any constructor, Java provides a default constructor automatically (only if no constructor is defined).
