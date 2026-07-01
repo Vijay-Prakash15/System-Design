@@ -20,6 +20,40 @@ into a single unit (class) and restricting direct access to the data by
 using access modifiers.
 
 */
+
+/*
+how to achieve enacapsulation:-
+    three step process
+    1.make private variable
+    private int age;
+    2.create getter mehtod
+    public int getAge() {
+    return age;
+    }
+    3.Create setter methods.
+
+    public void setAge(int age) {
+    this.age = age;
+    }
+
+*/
+
+/*
+    Access modifiers control who can access classes, methods, variables, and constructors.
+    There are 4 access modifiers in Java:
+
+    public
+    protected
+    default (no keyword)
+    private
+
+    public → Accessible from anywhere in the program.
+    private → Accessible only within the same class.
+    protected → Accessible within the same package and by subclasses (even in different packages).
+    default (package-private) → Accessible only within the same package (when no access modifier is specified).
+*/
+
+
 class SportsCar {
     private String brand;
     private String model;
