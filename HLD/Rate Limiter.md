@@ -22,6 +22,8 @@
 
 ---
 
+[Notes--](https://bytebytego.com/courses/system-design-interview/design-a-rate-limiter)
+
 ## 1. What is a Rate Limiter?
 
 A **rate limiter** is a tool that controls how many requests a client (or a service) can send to a server in a fixed amount of time.
